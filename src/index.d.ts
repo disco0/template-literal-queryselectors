@@ -13,6 +13,10 @@ type StripModifiers<V extends string> = StripModifier<StripModifier<StripModifie
 
 type TakeLastAfterToken<V extends string, T extends string> = StripModifiers<TakeLast<Split<Trim<V>, T>>>;
 
+//#endregion Tokenization
+
+//#region DOM
+
 type GetLastElementName<V extends string> = TakeLastAfterToken<TakeLastAfterToken<V, ' '>, '>'>;
 
 type GetEachElementName<V, L extends string[] = []> =
@@ -31,7 +35,7 @@ type MatchEachElement<V, L extends Element | null = null> =
     V extends [string, ...infer R] ? MatchEachElement<R, L | ElementByName<V[0]>>
     : L;
 
-//#endregion Tokenization
+//#endregion DOM
 
 //#region Bind signatures to DOM methods
 
