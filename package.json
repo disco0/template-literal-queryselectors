@@ -4,10 +4,11 @@
   "description": "Type declarations for extended inference of return types for querySelector and querySelectorAll methods using TypeScript 4.1&#39;s new template literal types",
   "files": [
     "readme.md",
-    "./types",
-    "./typesIgnore",
-    "./src/index.d.ts"
+    "types",
+    "typesIgnore",
+    "src"
   ],
+  "typings": "index.d.ts",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {},
