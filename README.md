@@ -8,6 +8,21 @@ In addition to `ParentNode#querySelector`, `ParentNode#querySelectorAll` is exte
 
 This is intended to be an interim solution; the library implementation should be used when added.
 
+## Install
+
+``` shell
+npm install --save-dev "http://github.com/disco0/template-literal-queryselectors/tarball/main"
+```
+
+## Usage
+
+In `globals.d.ts`, or each JavaScript / TypeScript file:
+
+``` ts
+///<reference types="template-literal-queryselectors"/>
+```
+
+
 [playground]: https://tsplay.dev/BmxabW
 [issue]: https://github.com/microsoft/TypeScript/issues/29037
 
