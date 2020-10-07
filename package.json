@@ -1,6 +1,6 @@
 {
   "name": "template-literal-queryselectors",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Type declarations for extended inference of return types for querySelector and querySelectorAll methods using TypeScript 4.1&#39;s new template literal types",
   "files": [
     "readme.md",
