@@ -1,6 +1,8 @@
+Update: [`typed-query-selector`](suggested-implementation) is good, actually
+
 # Template Literal querySelector
 
-Type declaration wrapper for, and extension of an [early implementation][playground] of extended template literal type inferrence for `querySelector` posted by Oorta in [microsoft/TypeScript#29037][issue]. 
+Type declaration wrapper for, and extension of an [early implementation][playground] of extended template literal type inference for `querySelector` mentioned in [microsoft/TypeScript#29037][issue]. 
 
 ![][ex01]
 
